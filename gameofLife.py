@@ -24,7 +24,6 @@ for i in range(20):
             list.append([i, j, 'black'])
         else:
             list.append([i, j, 'white'])
-num = 0
 #check if square is on column 0 or 19. this is needed to make sure that it doesn't take into consideration
 #squares on the opposite side of the grid in the rows above or below when checking if it needs to change color.
 #it becomes clear why its needed if you remove it
