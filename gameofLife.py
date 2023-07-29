@@ -49,12 +49,12 @@ while True:
 
                 if list[k] == [i, j, 'white']:
                     cont = 0
-                    if k < 399 and k not in last_column:
+                    if k not in last_column:
                         if list[k + 1][2] == 'white':
                             cont += 1
                     else:
                         cont += 1
-                    if k > 0 and k not in first_column:
+                    if k not in first_column:
                         if list[k - 1][2] == 'white':
                             cont += 1
                     else:
@@ -97,12 +97,12 @@ while True:
 
                 if list[k] == [i, j, 'black']:
                     cont = 0
-                    if k < 399 and k not in last_column:
+                    if k not in last_column:
                         if list[k + 1][2] == 'white':
                             cont += 1
                     else:
                         cont += 1
-                    if k > 0 and k not in first_column:
+                    if k not in first_column:
                         if list[k - 1][2] == 'white':
                             cont += 1
                     else:
