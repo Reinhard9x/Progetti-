@@ -35,7 +35,7 @@ for i in range(19, 400, 20):
     last_column.append(i)
 #start the game
 while True:
-    # keep track of the squares whoose color needs to change
+    # keep track of the squares whose color needs to change
     listw1 = []
     listw2 = []
     listw3 = []
